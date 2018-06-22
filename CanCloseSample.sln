@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanCloseSample", "CanCloseSample\CanCloseSample.csproj", "{50EE17E4-C995-4EE4-998A-3456BFD25F1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanCloseLibMvvm", "..\CanCloseLibMvvm\CanCloseLibMvvm.csproj", "{EBF90046-8AD5-4059-AEDE-C59559258BBE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CanCloseLibMvvm", "CanCloseLibMvvm\CanCloseLibMvvm.csproj", "{EBF90046-8AD5-4059-AEDE-C59559258BBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

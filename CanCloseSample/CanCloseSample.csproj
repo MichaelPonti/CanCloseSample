@@ -115,7 +115,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CanCloseLibMvvm\CanCloseLibMvvm.csproj">
+    <ProjectReference Include="..\CanCloseLibMvvm\CanCloseLibMvvm.csproj">
       <Project>{ebf90046-8ad5-4059-aede-c59559258bbe}</Project>
       <Name>CanCloseLibMvvm</Name>
     </ProjectReference>
