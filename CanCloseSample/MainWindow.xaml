@@ -1,0 +1,23 @@
+﻿<Window 
+	x:Class="CanCloseSample.MainWindow"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:local="clr-namespace:CanCloseSample"
+	xmlns:cclib="clr-namespace:CanCloseLibMvvm;assembly=CanCloseLibMvvm"
+	cclib:CanCloseBinding.CheckCanCloseEnabled="{Binding EnableCanClose}"
+	cclib:CanCloseBinding.CanCloseCheck="{Binding CanCloseCheck}"
+	cclib:CanCloseBinding.CanCloseCheckParameter="{Binding CanCloseCheckParameter}"
+	mc:Ignorable="d"
+	Title="MainWindow" Height="450" Width="800">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+
+		<CheckBox Grid.Row="0" IsChecked="{Binding EnableCanClose}" Margin="4" Content="Enable Can Close" />
+		<CheckBox Grid.Row="1" IsChecked="{Binding CancelClose}" Margin="4" Content="Cancel The Close" />
+	</Grid>
+</Window>
